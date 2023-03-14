@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 20px;
+}
+
+/* NAVBAR */
+.navbar
+{
+    background: linear-gradient(to left, green, greenyellow, yellow);
+}
+
+.navbar a
+{
+    color:black;
+    font-weight: 700;
+}
+
+.navbar .fa-magnifying-glass
+{
+    color: white;
+}
+
+.navbar li a:hover
+{
+    color: purple;
+}
+
+.navbar i.fa-house:hover
+{
+    color: purple;
+}
+
+.navbar button 
+{
+    color:black;
+}
+
+/* MAIN */
+.card-img-top
+{
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+/* FOOTER */
+footer
+{
+    color: blanchedalmond;
+}
+
+#footer_main
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: .5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer_main .mysocial
+{
+    font-size: 1.8rem;
+    text-align: end;
+}
+
+#footer_main .mysocial a i 
+{
+    color: black;
+    transition: .3s;
+}
+
+#footer_main .mysocial a i:hover
+{
+    color: white;
+}
+
+#footer_main .mycopyright
+{
+    text-align: center;
+    grid-column: 2 / span 2;
+    padding-top: 1.5rem;
+}

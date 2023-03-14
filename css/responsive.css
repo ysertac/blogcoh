@@ -1,0 +1,117 @@
+@media (max-width: 992px) 
+{
+    html
+    {
+        font-size: 15px;
+    }
+
+    .card-img-top
+    {
+        height: 17vh;
+    }
+
+    main #carouselExample img
+    {
+        height: 600px;
+    }
+
+    #footer_main
+    {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    #footer_main .mysocial
+    {
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+    }
+
+    #footer_main .mycopyright
+    {
+        grid-column: 1/ span 2;
+    }
+}
+
+@media (max-width: 767px) 
+{
+    .card-img-top
+    {
+        height: 15vh;
+    }
+
+    main #carouselExample img
+    {
+        height: 500px;
+    }
+
+    #map
+    {
+        height: 450px;
+    }
+}
+
+@media (max-width: 576px) 
+{
+    html
+    {
+        font-size: 15px;
+    }
+
+    .card-img-top
+    {
+        height: 12vh;
+    }
+
+    main #carouselExample img
+    {
+        height: 300px;
+    }
+
+    main .list-group
+    {
+        display: none;
+    }
+
+    main .col-9
+    {
+        width: 100%;
+    }
+
+    main .col-9 img
+    {
+        border-top-right-radius: .375rem;
+        border-bottom-left-radius: 0!important;
+    }
+
+    main .col-9 .col-4
+    {
+        width: 100%;
+    }
+
+    main .col-9 .col-8
+    {
+        width: 100%;
+    }
+
+    #footer_main
+    {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    #footer_main .mysocial
+    {
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+    }
+
+    #footer_main .mycopyright
+    {
+        grid-column: 1/ span 1;
+    }
+}
